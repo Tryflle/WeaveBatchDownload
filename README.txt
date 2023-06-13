@@ -35,3 +35,8 @@ Close it, lol. That was the entire point of this section, just making sure your 
 Now you can visit %userprofile%/weave/mods/ by pressing Windows+R and pasting the file path. Now, you can add all of your Weave mods, and launch your game and the mods should be loaded.
 Now it's time to party. Now that you are done, you may delete this file, the start.bat, and inside of the items folder, you may delete the get.bat and ascii.txt.
 If your mods don't work, don't complain to me, complain to the mod developer.
+
+
+Tools this installs:
+https://github.com/Weave-MC/Weave-Loader
+https://github.com/Youded-byte/lunar-client-qt
