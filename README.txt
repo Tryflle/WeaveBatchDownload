@@ -40,7 +40,7 @@ a selection of weave mods, press W. If you want to download any of the Java Agen
 directory as the weave loader agent, and has the same process of being used as the weave loader agent except they will download in the agents folder in the items folder.
 However, a lot of these agents are quite outdated and do not work anymore, but some do.
 As for the installation of weave mods, same general process, except it automatically puts it in your mods folder so you do not have to do it manually. 
-If you want to revisit the mod and agent installer, you may open modinstaller.bat. I seperated the file to ensure you could use it again without going through the entire process again.
+If you want to revisit the mod and agent installer, you may open mod.bat. I seperated the file to ensure you could use it again without going through the entire process again.
 If a mod does not work, try updating it at one of the github links below, don't ask me for help.
 That's all, if you have any issues, open an issue on GitHub, if you have a suggestion, make a pull request. Thanks for using my tool <3.
 
