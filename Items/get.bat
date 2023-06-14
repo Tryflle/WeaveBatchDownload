@@ -9,6 +9,8 @@ cd %userprofile%
 mkdir .weave
 cd %userprofile%/.weave/
 mkdir mods
-echo "Finished! Exiting in 3 seconds. Check %userprofile%/.weave/mods"
-timeout /t 3
-exit
+echo "Finished! Check %userprofile%/.weave/mods to add your mods manually in the future."
+echo "A file explorer in the directory has been opened for convienience."
+explorer %userprofile%\.weave\mods
+cd %scriptpath%
+call mods.bat
