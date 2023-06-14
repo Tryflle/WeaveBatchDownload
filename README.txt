@@ -1,5 +1,5 @@
 If you are viewing this on GitHub, and are wondering how to install this, press code, and click download zip, and then extract it
-***WINDOWS ONLY*** // My discord: Tryfle#3184 (don't add me, join weave discord and @ me) https://discord.gg/vRzZWSBkfY
+***WINDOWS ONLY*** // My discord: @tryfle (don't add me, join weave discord and @ me) https://discord.gg/vRzZWSBkfY
    _____             .___       ___.           ___________                _____.__           
   /     \ _____    __| _/____   \_ |__ ___.__. \__    ___/______ ___.__._/ ____\  |   ____   
  /  \ /  \\__  \  / __ |/ __ \   | __ <   |  |   |    |  \_  __ <   |  |\   __\|  | _/ __ \  
