@@ -1,12 +1,12 @@
 If you are viewing this on GitHub, and are wondering how to install this, press code, and click download zip, and then extract it
-***WINDOWS ONLY*** // My discord: @tryfle (don't add me, join weave discord and @ me) https://discord.gg/vRzZWSBkfY
+***WINDOWS ONLY*** // My discord: @tryfle (don't add me, join weave discord and ping me) https://discord.gg/vRzZWSBkfY
    _____             .___       ___.           ___________                _____.__           
   /     \ _____    __| _/____   \_ |__ ___.__. \__    ___/______ ___.__._/ ____\  |   ____   
  /  \ /  \\__  \  / __ |/ __ \   | __ <   |  |   |    |  \_  __ <   |  |\   __\|  | _/ __ \  
 /    Y    \/ __ \/ /_/ \  ___/   | \_\ \___  |   |    |   |  | \/\___  | |  |  |  |_\  ___/   
 \____|__  (____  |____ |\___  >  |___  / ____|   |____|   |__|   / ____| |__|  |____/\___  > 
         \/     \/     \/    \/       \/\/                        \/                      \/  
-V6.13.23 - This project does not automatically fetch the latest versions of LCQT or Weave. If there is an update available for LCQT, it will tell you and can be downloaded in one click
+V6.14.23 - This project does not automatically fetch the latest versions of LCQT or Weave. If there is an update available for LCQT, it will tell you and can be downloaded in one click
 but when it comes to LCQT, as long as it works, there is really no reason to update. As for Weave, all you need to do is download the latest release of Weave Loader and repeat
 the step in which you add a new Java agent, except instead of adding the one that is downloaded by the script, add the one you just downloaded. https://github.com/Weave-MC/Weave-Loader
 
@@ -34,10 +34,23 @@ folder of the JDK you just extracted.
 ----- When the client launches
 Close it, lol. That was the entire point of this section, just making sure your java was defined.
 Now you can visit %userprofile%/weave/mods/ by pressing Windows+R and pasting the file path. Now, you can add all of your Weave mods, and launch your game and the mods should be loaded.
-Now it's time to party. Now that you are done, you may delete this file, the start.bat, and inside of the items folder, you may delete the get.bat and ascii.txt.
-If your mods don't work, don't complain to me, complain to the mod developer.
+A file explorer SHOULD automatically have launched in that directory.
+You are done, if you press N on the dialogue asking if you want to Install Nil's Java Agents for LCQT. If you want to install Nil's Java agents, type Y, if you want to install
+a selection of weave mods, press W. If you want to download any of the Java Agents, type the number/letter of the java agent (case sensitive for my sanity) and it will download to the same
+directory as the weave loader agent, and has the same process of being used as the weave loader agent except they will download in the agents folder in the items folder.
+However, a lot of these agents are quite outdated and do not work anymore, but some do.
+As for the installation of weave mods, same general process, except it automatically puts it in your mods folder so you do not have to do it manually. 
+If you want to revisit the mod and agent installer, you may open modinstaller.bat. I seperated the file to ensure you could use it again without going through the entire process again.
+If a mod does not work, try updating it at one of the github links below, don't ask me for help.
+That's all, if you have any issues, open an issue on GitHub, if you have a suggestion, make a pull request. Thanks for using my tool <3.
 
 
-Tools this installs:
+
+Github pages that this downloads from:
 https://github.com/Weave-MC/Weave-Loader
 https://github.com/Youded-byte/lunar-client-qt
+https://github.com/Nilsen84/lunar-client-agents
+https://github.com/koxx12-dev/Weave-Raw-Input
+https://github.com/AriaJackie/Fractal
+https://github.com/Nilsen84/WeaveNoHitDelay
+https://github.com/PianoPenguin471/RavenWeave
