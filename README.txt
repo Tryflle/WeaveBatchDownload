@@ -6,7 +6,7 @@ If you are viewing this on GitHub, and are wondering how to install this, press 
 /    Y    \/ __ \/ /_/ \  ___/   | \_\ \___  |   |    |   |  | \/\___  | |  |  |  |_\  ___/   
 \____|__  (____  |____ |\___  >  |___  / ____|   |____|   |__|   / ____| |__|  |____/\___  > 
         \/     \/     \/    \/       \/\/                        \/                      \/  
-V6.14.23 - This project does not automatically fetch the latest versions of LCQT or Weave. If there is an update available for LCQT, it will tell you and can be downloaded in one click
+V6.16.23 - This project does not automatically fetch the latest versions of LCQT or Weave. If there is an update available for LCQT, it will tell you and can be downloaded in one click
 but when it comes to LCQT, as long as it works, there is really no reason to update. As for Weave, all you need to do is download the latest release of Weave Loader and repeat
 the step in which you add a new Java agent, except instead of adding the one that is downloaded by the script, add the one you just downloaded. https://github.com/Weave-MC/Weave-Loader
 
@@ -44,7 +44,12 @@ If you want to revisit the mod and agent installer, you may open mod.bat. I sepe
 If a mod does not work, try updating it at one of the github links below, don't ask me for help.
 That's all, if you have any issues, open an issue on GitHub, if you have a suggestion, make a pull request. Thanks for using my tool <3.
 
-
+6/16/23 Notice:
+Youded_Byte's fork of LCQT, which this script downloads has begun natively supporting weave integration. This script will still work however, and will still be updated. I do not plan to leave
+it behind. I still believe that the script is useful in other ways due to the mod installer module and LCQT lacking an auto update for Weave Loader.
+As of today, it's quite late, so I will not be adapting the README.txt, but as of now, the version of weave that is installed from this script and LCQT prebundle, are the same.
+But, when it does come that it updates, I will update the download link and you need to add it as an agent and just click disable weave in the mods menu on LCQT. You can use this mods menu
+to manage your mods, but the updated Weave Loader will still be downloaded using this script.  
 
 Github pages that this downloads from:
 https://github.com/Weave-MC/Weave-Loader
