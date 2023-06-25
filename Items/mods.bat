@@ -1,3 +1,4 @@
+@echo off
 set scriptpath=%~dp0
 :start
 SET choice=
