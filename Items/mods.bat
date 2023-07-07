@@ -134,7 +134,7 @@ powershell -Command "Invoke-WebRequest https://github.com/PianoPenguin471/RavenW
 goto weavemods
 
 :weavenohitdelay
-powershell -Command "Invoke-WebRequest https://github.com/Nilsen84/WeaveNoHitDelay/releases/download/v2.0/WeaveNoHitDelay-2.0.jar -OutFile %userprofile%\.weave\mods\WeaveNoHitDelay"
+powershell -Command "Invoke-WebRequest https://github.com/Nilsen84/WeaveNoHitDelay/releases/download/v2.0/WeaveNoHitDelay-2.0.jar -OutFile %userprofile%\.weave\mods\WeaveNoHitDelay.jar"
 goto weavemods
 
 :fractal
@@ -142,5 +142,5 @@ powershell -Command "Invoke-WebRequest https://github.com/AriaJackie/Fractal/rel
 goto weavemods
 
 :vapefix
-powershell -Command "Invoke-WebRequest https://github.com/Zircta/VapeFix/releases/download/2.0/VapeFix-2.0.jar"
+powershell -Command "Invoke-WebRequest https://github.com/Zircta/VapeFix/releases/download/2.0/VapeFix-2.0.jar -OutFile  %userprofile%\.weave\mods\VapeFix.jar"
 goto weavemods
