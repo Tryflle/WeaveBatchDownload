@@ -110,7 +110,8 @@ echo "3. RavenWeave"
 echo "4. Fractal"
 echo "5. Open file explorer in weave mods folder"
 echo "6. VapeFix (Fixes Vape V4 injection)"
-echo "7. Exit."
+echo "7. VanillaMenu"
+echo "8. Exit."
 SET choice3=
 SET /p choice3=Which one would you like to download (Automatically outputs to your mods folder): 
 IF NOT '%choice3%'=='' SET choice=%choice:~0,1%
@@ -120,7 +121,8 @@ IF '%choice3%'=='3' GOTO ravenweave
 IF '%choice3%'=='4' GOTO fractal
 IF '%choice3%'=='5' GOTO weavepath
 IF '%choice3%'=='6' GOTO vapefix
-IF '%choice3%'=='7' GOTO no
+IF '%choice3%'=='7' GOTO vanmenu
+IF '%choice3%'=='8' GOTO no
 ECHO "%choice3%" is not valid
 ECHO.
 GOTO weavemods
@@ -143,4 +145,8 @@ goto weavemods
 
 :vapefix
 powershell -Command "Invoke-WebRequest https://github.com/Zircta/VapeFix/releases/download/2.0/VapeFix-2.0.jar -OutFile  %userprofile%\.weave\mods\VapeFix.jar"
+goto weavemods
+
+:vanmenu
+powershell -Command "Invoke-WebRequest https://github.com/Zxnii/VanillaMenu/releases/download/v3.0.0/VanillaMenu-3.0.0.jar -OutFile  %userprofile%\.weave\mods\VanillaMenu.jar"
 goto weavemods
