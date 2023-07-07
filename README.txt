@@ -59,3 +59,4 @@ https://github.com/AriaJackie/Fractal
 https://github.com/Nilsen84/WeaveNoHitDelay
 https://github.com/PianoPenguin471/RavenWeave
 https://github.com/Zircta/VapeFix
+https://github.com/Zxnii/VanillaMenu
