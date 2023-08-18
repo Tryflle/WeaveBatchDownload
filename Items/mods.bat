@@ -144,7 +144,7 @@ powershell -Command "Invoke-WebRequest https://github.com/AriaJackie/Fractal/rel
 goto weavemods
 
 :vapefix
-powershell -Command "Invoke-WebRequest https://github.com/Zircta/VapeFix/releases/download/2.0/VapeFix-2.0.jar -OutFile  %userprofile%\.weave\mods\VapeFix.jar"
+powershell -Command "Invoke-WebRequest https://github.com/Zircta/VapeFix/releases/download/1.1/VapeFix-1.1.jar -OutFile  %userprofile%\.weave\mods\VapeFix.jar"
 goto weavemods
 
 :vanmenu
