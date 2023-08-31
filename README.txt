@@ -6,7 +6,7 @@ If you are viewing this on GitHub, and are wondering how to install this, press 
 /    Y    \/ __ \/ /_/ \  ___/   | \_\ \___  |   |    |   |  | \/\___  | |  |  |  |_\  ___/   
 \____|__  (____  |____ |\___  >  |___  / ____|   |____|   |__|   / ____| |__|  |____/\___  > 
         \/     \/     \/    \/       \/\/                        \/                      \/  
-V7.30.23 - This project does not automatically fetch the latest versions of LCQT or Weave. If there is an update available for LCQT, it will tell you and can be downloaded in one click
+V8.31.23 - This project does not automatically fetch the latest versions of LCQT or Weave. If there is an update available for LCQT, it will tell you and can be downloaded in one click
 but when it comes to LCQT, as long as it works, there is really no reason to update. As for Weave, all you need to do is download the latest release of Weave Loader and repeat
 the step in which you add a new Java agent, except instead of adding the one that is downloaded by the script, add the one you just downloaded. https://github.com/Weave-MC/Weave-Loader
 
@@ -45,10 +45,8 @@ If a mod does not work, try updating it at one of the github links below, don't 
 That's all, if you have any issues, open an issue on GitHub, if you have a suggestion, make a pull request. Thanks for using my tool <3.
 
 -----LCQT's (sorta) Weave Integration
-
-As of the latest release of LCQT, they have added a sort of mod manager for weave, that allows you to manage your mods from the LCQT launcher. You can either add the agent, or check the
-enable weave checkbox in the mods tab. Don't do both, otherwise it won't work. The only thing is, the agent is not automatically updated and I consider it a good practice to add it
-manually as an agent, but as of 7/30, it really doesn't matter.
+Ensure you add the agent that was downloaded to the /items/ folder to the agents tab in LCQT. On the mods tab, DO NOT click enable weave. The jar that this downloads is directly from
+the weave discord and patches the problem preventing mixins from working.
 Github pages that this downloads from:
 https://github.com/Weave-MC/Weave-Loader
 https://github.com/Youded-byte/lunar-client-qt
