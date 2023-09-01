@@ -1,7 +1,6 @@
 @echo off
 powershell -Command "Invoke-WebRequest https://github.com/Youded-byte/lunar-client-qt/releases/download/v1.5.3/windows.zip -OutFile LCQT.zip"
-powershell -Command "Invoke-WebRequest https://cdn.discordapp.com/attachments/1081743704903143444/1146867616057671760/Weave-Loader-Agent-0.2.3.jar -OutFile Weave-Loader-Agent-0.2.3-Mixin-Patch.jar"
-::powershell -Command "Invoke-WebRequest https://github.com/Weave-MC/Weave-Loader/releases/download/v0.2.3/Weave-Loader-Agent-0.2.3.jar -OutFile Weave-Loader-Agent-0.2.3.jar"
+powershell -Command "Invoke-WebRequest https://github.com/Weave-MC/Weave-Loader/releases/download/v0.2.4/Weave-Loader-Agent-0.2.4.jar -OutFile Weave-Loader-Agent-0.2.4.jar"
 tar -xf LCQT.zip
 del LCQT.zip
 set scriptpath=%~dp0
