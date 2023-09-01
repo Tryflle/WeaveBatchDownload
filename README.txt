@@ -45,8 +45,8 @@ If a mod does not work, try updating it at one of the github links below, don't 
 That's all, if you have any issues, open an issue on GitHub, if you have a suggestion, make a pull request. Thanks for using my tool <3.
 
 -----LCQT's (sorta) Weave Integration
-Ensure you add the agent that was downloaded to the /items/ folder to the agents tab in LCQT. On the mods tab, DO NOT click enable weave. The jar that this downloads is directly from
-the weave discord and patches the problem preventing mixins from working.
+Ensure you add the agent that was downloaded to the /items/ folder to the agents tab in LCQT. On the mods tab, DO NOT click enable weave. The jar that this downloads is newer and
+fixes issues with the prebundled jar.
 Github pages that this downloads from:
 https://github.com/Weave-MC/Weave-Loader
 https://github.com/Youded-byte/lunar-client-qt
