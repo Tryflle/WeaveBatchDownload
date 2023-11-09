@@ -6,9 +6,12 @@ If you are viewing this on GitHub, and are wondering how to install this, press 
 /    Y    \/ __ \/ /_/ \  ___/   | \_\ \___  |   |    |   |  | \/\___  | |  |  |  |_\  ___/   
 \____|__  (____  |____ |\___  >  |___  / ____|   |____|   |__|   / ____| |__|  |____/\___  > 
         \/     \/     \/    \/       \/\/                        \/                      \/  
-V8.31.23 - This project does not automatically fetch the latest versions of LCQT or Weave. If there is an update available for LCQT, it will tell you and can be downloaded in one click
+V11.9.23 - This project does not automatically fetch the latest versions of LCQT or Weave. If there is an update available for LCQT, it will tell you and can be downloaded in one click
 but when it comes to LCQT, as long as it works, there is really no reason to update. As for Weave, all you need to do is download the latest release of Weave Loader and repeat
 the step in which you add a new Java agent, except instead of adding the one that is downloaded by the script, add the one you just downloaded. https://github.com/Weave-MC/Weave-Loader
+
+Notice: The mod installer is out of date and I have not gotten around to updating it in any way. I also recommend using https://github.com/unethicalteam/lcbud instead as it is
+more modern and maintained more actively, among having many more features.
 
 
 If you haven't already, update lunar.
